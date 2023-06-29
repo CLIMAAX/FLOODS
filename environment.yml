@@ -1,0 +1,37 @@
+name: climaax
+
+channels:
+    - conda-forge
+
+dependencies:
+        - python=3.11
+        - gdal
+        - numpy
+        - geopandas
+        - rasterio
+        - matplotlib
+        - tqdm
+        - pip
+        - jupyterlab
+        - xlrd
+        - pyproj
+        - xarray
+        - rioxarray
+        - osmnx
+        - leafmap
+        - eccodes
+        - earthkit-data
+        - cfgrib
+        - scipy
+        - cartopy
+        - pandas
+        - jupyterlab
+        - ipywidgets
+        - ipympl
+        - nbmake
+        - pytest
+        - pip:
+            - netcdf4
+            - damagescanner
+   
+          
