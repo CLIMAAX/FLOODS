@@ -25,7 +25,6 @@ dependencies:
         - scipy
         - cartopy
         - pandas
-        - jupyterlab
         - ipywidgets
         - ipympl
         - nbmake
@@ -33,5 +32,6 @@ dependencies:
         - pip:
             - netcdf4
             - damagescanner
+            - jupyterlab_myst
    
           
