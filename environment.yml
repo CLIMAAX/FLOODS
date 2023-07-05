@@ -1,4 +1,4 @@
-name: climaax
+name: climaax_floods
 
 channels:
     - conda-forge
