@@ -22,6 +22,7 @@ dependencies:
         - eccodes
         - earthkit-data
         - cfgrib
+        - pooch
         - scipy
         - cartopy
         - pandas
