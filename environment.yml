@@ -30,9 +30,13 @@ dependencies:
         - ipympl
         - nbmake
         - pytest
+        - contextily
+        - cartopy
+        - regionmask
         - pip:
             - netcdf4
             - damagescanner
             - jupyterlab_myst
+            - openpyxl
    
           
