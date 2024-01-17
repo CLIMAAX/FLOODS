@@ -1,4 +1,4 @@
-Try the river flooding workflow on this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=FLOOD.ipynb)
+Try the river flooding workflow on this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=FLOOD.ipynb)  
 Try the coastal flooding workflow on this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=coastal_flooding.ipynb)
 
 # FLOODS
