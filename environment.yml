@@ -35,7 +35,8 @@ dependencies:
         - regionmask
         - planetary-computer
         - shapely
-        - dask-distributed
+        - dask
+        - distributed
         - pip:
             - netcdf4
             - damagescanner
