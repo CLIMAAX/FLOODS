@@ -33,10 +33,14 @@ dependencies:
         - contextily
         - cartopy
         - regionmask
+        - planetary-computer
+        - shapely
+        - dask-distributed
         - pip:
             - netcdf4
             - damagescanner
             - jupyterlab_myst
             - openpyxl
+            - pystac-client
    
           
