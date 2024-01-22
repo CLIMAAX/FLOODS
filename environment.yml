@@ -38,6 +38,8 @@ dependencies:
         - shapely
         - dask
         - distributed
+        - requests
+        - aiohttp
         - pip:
             - netcdf4
             - damagescanner
