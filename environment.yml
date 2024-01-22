@@ -16,6 +16,7 @@ dependencies:
         - xlrd
         - pyproj
         - xarray
+        - zarr
         - rioxarray
         - osmnx
         - leafmap
