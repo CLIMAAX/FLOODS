@@ -2,14 +2,14 @@ River flood workflow: [![Binder](https://mybinder.org/badge_logo.svg)](https://m
 Coastal flood workflow: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=FLOOD_COASTAL.ipynb)
 
 # FLOODS
-Repository for collaboration on workflows for floods hazard
+Repository for collaboration on workflows for floods hazards, including a river flood workflow and coastal flood workflow.
 
 # How to run
 
 ## Running on Binder
-The notebook is designed to be launched from Binder. 
+The notebooks are designed to be launched from Binder. 
 
-Click the **Launch Binder** button at the top level of the repository
+Click the **Launch Binder** button at the top level of the repository.
 
 ## Running locally
 You may also download the notebook from GitHub to run it locally:
