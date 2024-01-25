@@ -33,7 +33,6 @@ dependencies:
         - pytest
         - contextily
         - cartopy
-        - regionmask
         - planetary-computer
         - shapely
         - dask
