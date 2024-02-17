@@ -1,6 +1,8 @@
 #Data directories
 **/FLOOD_COASTAL_hazard/
 **/FLOOD_COASTAL_risk/
+**/FLOOD_RIVER/
+**/FLOOD_RIVER_hazard/
 **/coastal_flood_workflow/
 
 # Byte-compiled / optimized / DLL files
