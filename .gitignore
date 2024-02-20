@@ -1,7 +1,10 @@
 #Data directories
 **/FLOOD_COASTAL_hazard/
 **/FLOOD_COASTAL_risk/
+**/FLOOD_RIVER_hazard/
+**/FLOOD_RIVER_risk/
 **/coastal_flood_workflow/
+**/flood_workflow/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
