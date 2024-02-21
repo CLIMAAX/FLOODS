@@ -17,8 +17,6 @@ The following datasets are used in this workflow:
 - Damage curves for infrastructure expressed as relative damage percentage (available [here](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688)).
 - Data on economic value for different types of land use, which can be country/location specific. This data is specified in the Excel file provided on the GitHub repository of the workflow (see **LUISA_damage_info_curves.xlsx**)
 
-In this workflow we use the postprocessed version of the Global Flood Maps dataset that is downloaded using the dedicated hazard assessment workflow, where the flood maps were downloaded and aggregated for the specific area of interest (**link**). If you would like to use this dataset, please first execute the river flood hazard assessment workflow to download the flood maps.
-
 ## Output of the workflow
 
 The outputs of this workflow are:  
