@@ -5,9 +5,9 @@
 ## Risk assessment methodology
 
 In this workflow, we will consider the potential impacts of coastal flooding caused by extreme sea water levels. The flood risk is calculated by combining maps of potential coastal flood extent with exposure and vulnerability data in the form of economic damage functions for infrastructure. 
-In particular, flood damage is calculated by applying damage curves to the flood inundation depth maps, taking into account the local situation. For each grid point, the damage is calculated based on the flood depth, land use type, damage curves, and country-specific parameters (can be defined by the user) that approximate the economic value of different land use types.
+In particular, flood damage is calculated by applying damage curves to the flood inundation depth maps, taking into account the local situation. For each grid point, the damage is calculated based on the flood depth, land use type, damage curves, and country-specific parameters (can be defined by the user) that approximate the economic value of different land use types. The methodology for using vulnerability curves to estimate economic damage is described in more detail in the section on [Working with vulnerability curves](https://handbook.climaax.eu/notebooks/workflows/vulnerability-curves-adjustment.html).
 
-The resulting data and maps help the user in identifying hotspots of potential economic damage due to coastal flooding for different return periods of extreme sea levels.The flood maps are considered for two climates: present-day climate (ca. 2018) and 2050 (RCP8.5 climate scenario). For each climate, different return periods of the extreme conditions are considered
+The resulting data and maps help the user in identifying hotspots of potential economic damage due to coastal flooding for different return periods of extreme sea levels.The flood maps are considered for two climates: present-day climate (ca. 2018) and 2050 (RCP8.5 climate scenario). For each climate, different return periods of the extreme conditions are considered.
 
 Please note that the underlying flood map dataset does not include coastal flood defences that may already be in place. It is important to always check the result against existing local knowledge of the infrastructure. More information on the applicability of the dataset is found below.
 
@@ -18,7 +18,7 @@ The following datasets are used in this workflow:
 - Flood maps: Maps of flood depth (coastal inundation depth) are based on the Global Flood Maps dataset openly available via the Microsoft Planetary Computer ([source](https://planetarycomputer.microsoft.com/dataset/deltares-floods)). 
 - Land-use information: The land cover map is available from the [Copernicus Land Monitoring Service](https://land.copernicus.eu/pan-european/corine-land-cover).
 - Damage curves for infrastructure expressed as relative damage percentage (available [here](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688)).
-- Data on economic value for different types of land use, which can be country/location specific. This data is specified in the Excel file provided on the GitHub repository of the workflow (see **LUISA_damage_info_curves.xlsx**)
+- Data on economic value for different types of land use, which is adjusted to be country/location specific. A template for this data is specified in the Excel file provided on the GitHub repository of the workflow (see **LUISA_damage_info_curves.xlsx**). The risk workflow script will make a copy of this file and prompt the user to adjust the information in this file.
 
 In this risk workflow, we use the post-processed version of the Global Flood Maps dataset that is downloaded using the dedicated hazard assessment workflow, where the flood maps were downloaded and aggregated for the specific area of interest (**link**). If you would like to use this dataset, please first execute the coastal flood hazard assessment workflow to download the flood maps.
 
