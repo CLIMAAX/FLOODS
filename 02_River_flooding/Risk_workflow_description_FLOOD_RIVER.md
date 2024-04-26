@@ -1,7 +1,7 @@
 Risk assessment for river flooding
 =======================
 
-## Risk assessment methodology
+**Risk assessment methodology**
 
 In this workflow we will consider the potential impacts of river flooding. The flood risk is calculated by combining maps of potential river flood extent with exposure and vulnerability data in the form of economic damage functions for infrastructure. 
 In particular, flood damage is calculated by applying damage curves to the flood inundation depth maps, taking into account the local situation. For each grid point, the damage is calculated based on the flood depth, land use type, damage curves, and country-specific parameters (can be defined by the user) that approximate the economic value of different land use types.
@@ -11,7 +11,7 @@ The resulting data and maps help the user to assess the hotspots of potential ec
 
 Please note that the underlying flood map dataset does not include river flood defences that may already be in place. It is important to always check the result against existing local knowledge of the infrastructure. More information on the applicability of the dataset is found below.
 
-## Datasets
+**Datasets**
 
 The following datasets are used in this workflow:
 
@@ -41,7 +41,7 @@ This is a global dataset which on a local scale may lead to considerable uncerta
 -	The analysis is based on time-series of limited length and thus extreme value analysis is also based on limited number of annual maxima and quite uncertain.
 `````
 
-## Output of the workflow
+**Output of the workflow**
 
 The outputs of this workflow are:  
  - Potential flood depth and extent maps for the area of interest for extreme events with different return periods.
