@@ -45,5 +45,7 @@ dependencies:
             - jupyterlab_myst
             - openpyxl
             - pystac-client
+            - myst-nb
+            - cdsapi
    
           
