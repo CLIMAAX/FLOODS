@@ -1,7 +1,7 @@
 River flood workflow:
  - Hazard assessment for retrieving flood maps: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Hazard_assessment_FLOOD_RIVER.ipynb)
  - Risk assessment for mapping potential damage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Risk_assessment_FLOOD_RIVER.ipynb)
- - 
+   
 Coastal flood workflow:  
  - Hazard assessment for retrieving flood maps: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Hazard_assessment_FLOOD_COASTAL.ipynb)
  - Risk assessment for mapping potential damage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Risk_assessment_FLOOD_COASTAL.ipynb)
