@@ -1,0 +1,11 @@
+data/
+OSM/
+DamageBuildings/
+DisplacePopulation/
+ExposePopulation/
+cache/
+*.dbf
+*.tif
+*.xml
+tmp/
+features.txt
