@@ -48,3 +48,5 @@ You can download the notebook from GitHub to run it locally:
 
 # Credits
 The **How to run** section was adapted from the [Environmental Data Science Book](https://edsbook.org/welcome.html) project.
+
+edit readme
