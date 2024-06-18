@@ -6,6 +6,8 @@ Coastal flooding is one of the most damaging hazards in coastal areas. Coastal f
 
 Coastal flooding can be caused by high coastal water levels, driven by tide and storm surges, and further increased by sea level rise. Storm surges in particular can very greatly depending on the atmospheric conditions. Storm surge is increased when wind pushes the ocean water towards the land resulting in elevated water levels. 
 
+![stormsurge](../images/Coastal_flood_illustration_storm_surge_NOAA_MetOffice.jpg "Illustration")
+
 ```{figure} ../images/Coastal_flood_illustration_storm_surge_NOAA_MetOffice.jpg
 ---
 :name: stormsurge
@@ -20,7 +22,7 @@ The risks from coastal flooding can be assessed by analyzing extreme water level
 
 First, we can understand the variability of water levels and the range of extreme water levels by using data from global models and checking the data for the specific location of interest. We can also retrieve the latest sea level rise predictions to understand the expected changes to mean sea levels in the coming decades. These estimates of extreme water levels and sea level rise can be used to construct flood maps, by combining water level data and coastal topography data - this is done with the aid of flood models. In this toolbox we will use already exisiting coastal flood maps (see sections below for more details).
 
-The flood risk is calculated by combining maps of potential coastal flood extent with exposure and vulnerability data in the form of economic damage functions for infrastructure. In particular, flood damage is calculated by applying damage curves to the flood inundation depth maps, taking into account the local situation. For each grid point, the damage is calculated based on the flood depth, land use type, damage curves, and country-specific parameters (can be defined by the user) that approximate the economic value of different land use types. The methodology for using vulnerability curves to estimate economic damage is described in more detail in the section on [Working with vulnerability curves](https://handbook.climaax.eu/notebooks/workflows/vulnerability-curves-adjustment.html).
+**The flood risk is calculated by combining maps of potential coastal flood extent with exposure and vulnerability data in the form of economic damage functions for infrastructure.** In particular, flood damage is calculated by applying damage curves to the flood inundation depth maps, taking into account the local situation. For each grid point, the damage is calculated based on the flood depth, land use type, damage curves, and country-specific parameters (can be defined by the user) that approximate the economic value of different land use types. The methodology for using vulnerability curves to estimate economic damage is described in more detail in the section on [Working with vulnerability curves](https://handbook.climaax.eu/notebooks/workflows/vulnerability-curves-adjustment.html).
 
 The resulting data and maps help the user in identifying hotspots of potential economic damage due to coastal flooding for different return periods of extreme sea levels, and estimating the impact of future climate change scenarios on the flood risk.
 
@@ -50,29 +52,27 @@ We use the Global Flood Maps dataset because of its wide spatial coverage and av
 ### Scripts included in the workflow
 The workflow example that is provided in this toolbox follows three steps, each of which is realized through a separate Jupyter notebook:
 
-dataset that is downloaded using the dedicated hazard assessment workflow, where the flood maps were downloaded and aggregated for the specific area of interest. If you would like to use this dataset, please first execute the coastal flood hazard assessment workflow to download the flood maps (see *Hazard_assessment_FLOOD_COASTAL.ipynb*).
-
 **Step 1:** Explore extreme water levels and sea level rise in the region of interest. 
-In this step we retrieve the water level timeseries and statistics from a global database of water levels derived from GTSMv3.0. We also explore the sea level rise projections through the NASA Sea Level Projection Tool. Though this data will not be used for calculating risk, it can help the user to understand better the changes in water levels at their location and better interpret the flood maps. It can also allow to explore scenarios of sea level rise that are not included in the flood maps by getting an estimate of sea level rise and comparing between scenarios.  
+In this step we retrieve the water level timeseries and statistics from a global database of water levels derived from GTSMv3.0. We also explore the sea level rise projections through the NASA Sea Level Projection Tool. Though this data will not be used for calculating risk, it can help the user to understand better the changes in water levels at their location and better interpret the flood maps. It can also allow to explore scenarios of sea level rise that are not included in the flood maps by getting an estimate of sea level rise and comparing between scenarios.    
 **Notebook:** *Hazard_assessment_FLOOD_COASTAL_waterlevel.ipynb*)  
 
 **Step 2:** Hazard assessment of coastal flooding using global flood maps.
-In this step we retrieve the coastal flood maps for different return periods and scenarios from the Global Flood Maps dataset. This notebook enables the user to download the data, crop it to the region of interest, and compare the flood maps for different return periods and scenarios to each other. This step should also help the user to assess whether the Global Flood Maps dataset is suitable for their location by comparing the flood maps with the local knowledge on the coastal structures and flood defences that might be in place and not included in the floodmaps.  
+In this step we retrieve the coastal flood maps for different return periods and scenarios from the Global Flood Maps dataset. This notebook enables the user to download the data, crop it to the region of interest, and compare the flood maps for different return periods and scenarios to each other. This step should also help the user to assess whether the Global Flood Maps dataset is suitable for their location by comparing the flood maps with the local knowledge on the coastal structures and flood defences that might be in place and not included in the floodmaps.    
 **Notebook:** *Hazard_assessment_FLOOD_COASTAL_floodmaps.ipynb*
 
 **Step 3:** Risk assessment of potential coastal flooding damages based on flood maps.
-In this step potential risk due to coastal flooding is calculated by combining flood maps and data on land use, economic value and vulnerability (damage curves). We use the Global Flood Maps data in this example. However, we encourage the user to use their own flood maps and adapt this workflow to their needs to achieve higher accuracy of the results.  
+In this step potential risk due to coastal flooding is calculated by combining flood maps and data on land use, economic value and vulnerability (damage curves). We use the Global Flood Maps data in this example. However, we encourage the user to use their own flood maps and adapt this workflow to their needs to achieve higher accuracy of the results.    
 **Notebook:** *Risk_assessment_FLOOD_COASTAL.ipynb*
   
 ### Datasets used in the workflow
 
 The following datasets are used in this workflow:
-- Water level statistics: global water level timeseries and statistical indicators are based on the Global Tide and Surge Model results (GTSMv3.0) forced with ERA5 reanalysis atmospheric data. This dataset is available from Copernicus Climate Change Service [here](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-water-level-change-timeseries-cmip6).  
-- Sea level rise: sea level rise projections based on the 6th assessment of IPCC. We consult these projections on the [NASA Sea Level Projection Tool](https://sealevel.nasa.gov/data_tools/17). 
-- Flood maps: Maps of flood depth (coastal inundation depth) are based on the Global Flood Maps dataset openly available via the Microsoft Planetary Computer ([source](https://planetarycomputer.microsoft.com/dataset/deltares-floods)). 
-- Land-use information: The land cover map is available from the [Copernicus Land Monitoring Service](https://land.copernicus.eu/pan-european/corine-land-cover).
-- Damage curves for infrastructure expressed as relative damage percentage (available [here](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688)).
-- Data on economic value for different types of land use, which is adjusted to be country/location specific. A template for this data is specified in the Excel file provided on the GitHub repository of the workflow (see *LUISA_damage_info_curves.xlsx*). The risk workflow script will make a copy of this file and prompt the user to adjust the information in this file.
+- **Water level statistics:** global water level timeseries and statistical indicators are based on the Global Tide and Surge Model results (GTSMv3.0) forced with ERA5 reanalysis atmospheric data. This dataset is available from Copernicus Climate Change Service [here](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-water-level-change-timeseries-cmip6).  
+- **Sea level rise:** sea level rise projections based on the 6th assessment of IPCC. We consult these projections on the [NASA Sea Level Projection Tool](https://sealevel.nasa.gov/data_tools/17). 
+- **Flood maps:** Maps of flood depth (coastal inundation depth) are based on the Global Flood Maps dataset openly available via the Microsoft Planetary Computer ([source](https://planetarycomputer.microsoft.com/dataset/deltares-floods)). 
+- **Land-use information:** The land cover map is available from the [Copernicus Land Monitoring Service](https://land.copernicus.eu/pan-european/corine-land-cover).
+- **Flood-damage curves for infrastructure** expressed as relative damage percentage (available [here](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688)).
+   - Data on economic value for different types of land use, which is adjusted to be country/location specific. A template for this data is specified in the Excel file provided on the GitHub repository of the workflow (see *LUISA_damage_info_curves.xlsx*). The risk workflow script will make a copy of this file and prompt the user to adjust the information in this file.
 
 ### Output of the workflow
 
@@ -81,14 +81,14 @@ The outputs of this workflow are:
  - Flood depth and extent maps for the area of interest.
  - Flood damage maps, expressed in economic value, per scenario and return period.
 
-```{glue:} "flood_damages_overview_fig"
-```
+ ![stormsurge](../images/coastal-risk-workflow-output.png)
 
-#### Contributors
-Applied research institute Deltares (The Netherlands). 
+### Authors
+Applied research institute Deltares.  
+The members involved in the development of this section were the following:
 
-Authors of the workflow: 
 Natalia Aleksandrova
+Ted Buskop
 
 
 
