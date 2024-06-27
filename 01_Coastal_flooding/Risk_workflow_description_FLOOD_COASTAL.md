@@ -4,9 +4,7 @@
 
 Coastal flooding is one of the most damaging hazards in coastal areas. Coastal flood risk is expected to increase under the pressures of sea level rise (SLR), climate change and growth of population in coastal regions. A good understanding of which areas are prone to coastal flooding, and how this may change in the future will be instrumental in identifying appropriate mitigation and adaptation strategies.
 
-Coastal flooding can be caused by high coastal water levels, driven by tide and storm surges, and further increased by sea level rise. Storm surges in particular can very greatly depending on the atmospheric conditions. Storm surge is increased when wind pushes the ocean water towards the land resulting in elevated water levels. 
-
-![stormsurge](../images/Coastal_flood_illustration_storm_surge_NOAA_MetOffice.jpg "Illustration")
+Coastal flooding can be caused by high coastal water levels, driven by tide and storm surges, and further increased by sea level rise. Storm surges in particular can very greatly depending on the atmospheric conditions. Storm surge is increased when wind pushes the ocean water towards the land resulting in elevated water levels.
 
 ```{figure} ../images/Coastal_flood_illustration_storm_surge_NOAA_MetOffice.jpg
 ---
