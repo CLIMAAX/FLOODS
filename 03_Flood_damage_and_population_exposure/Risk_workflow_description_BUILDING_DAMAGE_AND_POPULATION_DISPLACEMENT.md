@@ -11,27 +11,36 @@ The risk from flooding is assessed in this worflow by creating flood maps using 
 The datasets used in this workflow by default are further described [below.](#datasets-used-in-the-workflow)
 The datasets are European European and Meditterenean wide flood data, global population data, and global building data. Local data can be used, and it is encoureged to do so, by modifying the code. 
 
+```{note}
+This workflow takes:
+- Hazard: Flood event.
+- Exposure: Building and population data.
+- Vulnerabity: Damage curves and water height for displacement.
+And outputs the risks:
+- Economic damage to buildings.
+- Population displaced.
+![how_to_get_risk](../images/infographic_how_to_get_risk.png)
+```
+
+
 ### Which flood maps to use?
 
 The flood map used, taken from “River flood hazard maps for Europe and the Mediterranean Basin region”, and found on the [European Commission’s Joint Research Centre](https://data.jrc.ec.europa.eu/dataset/1d128b6c-a4ee-4858-9e34-6210707f3c81#description), is a European wide flood map. It is used to estimate water levels for 9 different return periods ranging from 10 to 500 years. 
 While this data can be a good starting position, it has some limitations: it only contains large basins and does not include the impact of flood protection infrastrucutre. Hence, using local data may be necessary depending on the area of interest. 
+
 
 ## Description of workflow 
 
 ### Structure
 The workflow example that is provided in this toolbox has a hazard and a risk assesment component:
 
-**Hazard assessment:** Explore different flood return period's water levels in the area of interest. 
-In this assessment, the water level is retrieved and flood maps are generated for a variety of return periods. Moreover, a population map for the area of interest is also generated, which can be chosen from a variety of past and future dates (more information [below.](#datasets-used-in-the-workflow)). 
+**Hazard assessment:** Explore different flood return period's water levels in the area of interest.
+In this assessment, the water level is retrieved and flood maps are generated for a variety of return periods.  
 
 **Risk assessment:** Explore the building damage, critical infrastructure impacted, population exposed and displaced, for the area of interest.
-In this assessment, the potential risks due to flooding are estimated by combining the flood maps generated with the damage curves, populations maps, and building data. 
+In this assessment, the potential risks due to flooding are estimated by combining the flood maps generated from different return periods with the damage curves, populations maps, and building data. Moreover, the population map generated and used can be chosen from a variety of past and future dates (more information [below.](#datasets-used-in-the-workflow)).
 
-```{note}
-Currently, the risk assessment will also perform the hazard assessment as part of the process. Hence, it is recommended to run that directly to have all the outputs of the workflow.
-```
 
-  
 ### Datasets used in the workflow 
 
 The following datasets are used in this workflow:
