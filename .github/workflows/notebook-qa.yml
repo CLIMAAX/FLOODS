@@ -1,0 +1,29 @@
+name: Notebook-QA
+
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - name: Repository checkout
+        uses: actions/checkout@v4
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v3.0.4
+        with:
+          activate-environment: test
+          miniforge-version: latest
+          environment-file: environment.yml
+      - name: Show conda environment
+        run: conda list
+      - name: Install QA packages
+        run: pip install nbqa pylint
+      - name: Run linter
+        run: nbqa pylint --output-format=colorized .

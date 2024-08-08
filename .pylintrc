@@ -1,0 +1,37 @@
+[MAIN]
+fail-on=F,E
+fail-under=7
+
+[MESSAGES CONTROL]
+confidence=HIGH,CONTROL_FLOW,INFERENCE,INFERENCE_FAILURE,UNDEFINED
+disable=duplicate-code,inconsistent-quotes,invalid-name,missing-module-docstring,redefined-outer-name,trailing-whitespace,wrong-import-position
+
+[FORMAT]
+expected-line-ending-format=
+ignore-long-lines=^\s*(# )?<?https?://\S+>?$
+indent-after-paren=4
+indent-string='    '
+max-line-length=120
+max-module-lines=2000
+single-line-if-stmt=no
+
+[IMPORTS]
+allow-any-import-level=
+allow-wildcard-with-all=no
+deprecated-modules=
+
+[REFACTORING]
+max-nested-blocks=5
+never-returning-functions=sys.exit,argparse.parse_error
+suggest-join-with-non-empty-separator=yes
+
+[REPORTS]
+reports=no
+score=yes
+
+[STRING]
+check-quote-consistency=yes
+check-str-concat-over-line-jumps=no
+
+[VARIABLES]
+allow-global-unused-variables=no
