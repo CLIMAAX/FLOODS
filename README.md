@@ -1,52 +1,62 @@
-River flood workflow:
- - Hazard assessment for retrieving flood maps: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Hazard_assessment_FLOOD_RIVER.ipynb)
- - Risk assessment for mapping potential damage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Risk_assessment_FLOOD_RIVER.ipynb)
-   
-Coastal flood workflow:  
- - Hazard assessment for retrieving flood maps: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Hazard_assessment_FLOOD_COASTAL.ipynb)
- - Risk assessment for mapping potential damage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FLOODS/main?labpath=Risk_assessment_FLOOD_COASTAL.ipynb)
-
 # FLOODS
-Repository for collaboration on workflows for floods hazards, which contains two workflows:
- - river flood workflow
- - coastal flood workflow
+
+Repository for collaboration on workflows for floods hazard.
+
+[<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
+
+Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/notebooks/workflows/floods.html).
+
+
+## Workflows
+
+- [River flood](02_River_flooding/)
+- [Coastal flood](01_Coastal_flooding/)
 
 Both workflows enable the user to retrieve relevant flood maps from open global databases and combine those with data on exposure and vulnerability in the form of land use maps and economic damage curves.
 
-# How to run
-
-## Running on Binder
-The notebooks can be launched on Binder. However, please note that the available memory space on Binder is limited, which means that the workflow cannot be used to load multiple flood maps or perform all of the calculations in an efficient manner.
-Click the **Launch Binder** button at the top level of the repository.
-
-## Running locally
-You can download the notebook from GitHub to run it locally:
-1. Open your terminal
-
-2. Check your conda install with `conda --version`. If you don't have conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html))
-
-3. Clone the repository
-    ```bash
-    git clone https://github.com/CLIMAAX/FLOODS.git
-    ```
-
-4. Move into the cloned repository
-    ```bash
-    cd FLOODS
-    ```
-
-5. Create and activate your environment from the `environment.yml` file
-    ```bash
-    conda env create -f environment.yml
-    conda activate climaax_floods
-    ```  
-
-6. Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
-   
-8. Edit and run the notebook
+- [Flood building damage and population exposure](03_Flood_damage_and_population_exposure/)
 
 
-# Credits
-The **How to run** section was adapted from the [Environmental Data Science Book](https://edsbook.org/welcome.html) project.
+## How to run
 
-edit readme
+See our [how to run risk workflows](https://handbook.climaax.eu/notebooks/workflows_how_to.html) page in the handbook for more information.
+
+### Launch a binder session
+
+Binder sessions are not persistent and may not provide the necessary computing resources to run all workflow steps.
+In particular, the workflows cannot be used on Binder to load multiple flood maps or perform all of the calculations in an efficient manner.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/climaax/binder-env/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FCLIMAAX%252FFLOODS%26urlpath%3Dlab%252Ftree%252FFLOODS%252F%26branch%3Dmain)
+
+### Quickstart: local setup
+
+In a terminal where git and conda are available:
+
+1.  Clone the repository
+
+        git clone git@github.com:CLIMAAX/FLOODS.git
+
+2.  Move into the cloned repository
+
+        cd FLOODS
+
+3.  Create a new environment from the `environment.yml` file
+
+        conda env create -f environment.yml
+
+4.  Activate the environment
+
+        conda activate climaax_floods
+
+5.  Launch the Jupyter interface of your preference with
+
+        jupyter lab
+
+    or
+
+        jupyter notebook
+
+
+## How to contribute
+
+See our [contribute to risk recipes](https://handbook.climaax.eu/community/contribute.html) page in the handbook for more information.
