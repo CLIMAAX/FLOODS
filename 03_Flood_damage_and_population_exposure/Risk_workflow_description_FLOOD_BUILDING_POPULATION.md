@@ -62,11 +62,13 @@ For a specific area, this workflow outputs:
 - Maps of displaced population and estimated annual displaced population graph. 
 
 ### References
-Baugh et al. 2024
-Schiavina et al., 2023
+Baugh, Calum; Colonese, Juan; D'Angelo, Claudia; Dottori, Francesco; Neal, Jeffrey; Prudhomme, Christel; Salamon, Peter (2024): River flood hazard maps for Europe and the Mediterranean Basin region. European Commission, Joint Research Centre (JRC). doi: 10.2905/1D128B6C-A4EE-4858-9E34-6210707F3C81 PID: http://data.europa.eu/89h/1d128b6c-a4ee-4858-9e34-6210707f3c81
+
+Schiavina, Marcello; Freire, Sergio; Alessandra Carioli; MacManus, Kytt (2023): GHS-POP R2023A - GHS population grid multitemporal (1975-2030). European Commission, Joint Research Centre (JRC). doi: 10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE PID: http://data.europa.eu/89h/2ff68a52-5b5b-4a22-8f40-c41da8332cfe
+
 
 ### Authors 
 CMCC
 
 Main contributors:  
-...
+Davide Serrao
