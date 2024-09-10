@@ -5,4 +5,4 @@ Flooding can result in damage, displacement, economic losses and in some cases l
 
 In this workflow we will focus only on the fluvial flooding hazard (flooding directly around rivers). Due to coarse resolution, the flood maps included in this workflow are only representative for larger river basins. For those basins we will explore how river flooding changes under climate change with help of Europe-wide datasets, and demonstrate an example of calculating economic damages to infrastructure due to river flooding. This workflow can be adjusted by the user to be able to make use of local flood maps which can be more representative of the local situation than Europe-scale maps, which might lack detail and include not all streams or processes.
 
-![flood-infographic](https://github.com/CLIMAAX/FLOODS/blob/main/images/flooding_infographic.png?raw=true "Flooding infographic from the European State of the Climate 2023")
+![flood-infographic](../images/flooding_infographic.png "Flooding infographic from the European State of the Climate 2023")

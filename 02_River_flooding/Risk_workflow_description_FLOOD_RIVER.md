@@ -72,7 +72,7 @@ The outputs of this workflow are:
  - Comparison of flood depth maps between the future and historical climates under two climate scenarios (RCP4.5 and RCP8.5) for different return periods derived from a coarse-resolution global dataset.
  - Flood damage maps, expressed in economic value, for extreme events with different return periods based on available flood maps for the historical climate.
 
-![river-flood-results](https://github.com/CLIMAAX/FLOODS/blob/main/images/Result_map_Bremen_Germany_rp100.png?raw=true "Result of river flood risk assessment workflow for the area of Bremen, Germany and river flood event with 100-year return period")
+![river-flood-results](../images/Result_map_Bremen_Germany_rp100.png "Result of river flood risk assessment workflow for the area of Bremen, Germany and river flood event with 100-year return period")
 
 ### Authors 
 Applied research institute Deltares (The Netherlands)
