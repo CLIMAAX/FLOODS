@@ -7,9 +7,8 @@ Coastal flooding is one of the most damaging hazards in coastal areas. Coastal f
 Coastal flooding can be caused by high coastal water levels, driven by tide and storm surges, and further increased by sea level rise. Storm surges in particular can very greatly depending on the atmospheric conditions. Storm surge is increased when wind pushes the ocean water towards the land resulting in elevated water levels.
 
 ```{figure} ../images/Coastal_flood_illustration_storm_surge_NOAA_MetOffice.jpg
----
 :name: stormsurge
----
+
 Illustration of extreme water levels and storm surge. Credits: NOAA, MetOffice
 ```
 
