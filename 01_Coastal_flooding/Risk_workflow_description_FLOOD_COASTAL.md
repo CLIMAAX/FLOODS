@@ -64,7 +64,7 @@ In this step potential risk due to coastal flooding is calculated by combining f
 ### Datasets used in the workflow
 
 The following datasets are used in this workflow:
-- **Water level statistics:** global water level timeseries and statistical indicators are based on the Global Tide and Surge Model results (GTSMv3.0) forced with ERA5 reanalysis atmospheric data. This dataset is available from Copernicus Climate Change Service [here](https://cds-beta.climate.copernicus.eu/datasets/sis-water-level-change-timeseries-cmip6).
+- **Water level statistics:** global water level timeseries and statistical indicators are based on the Global Tide and Surge Model results (GTSMv3.0) forced with ERA5 reanalysis atmospheric data. This dataset is available from Copernicus Climate Change Service [here](https://cds.climate.copernicus.eu/datasets/sis-water-level-change-timeseries-cmip6).
 - **Sea level rise:** sea level rise projections based on the 6th assessment of IPCC. We consult these projections on the [NASA Sea Level Projection Tool](https://sealevel.nasa.gov/data_tools/17). 
 - **Flood maps:** Maps of flood depth (coastal inundation depth) are based on the Global Flood Maps dataset openly available via the Microsoft Planetary Computer ([source](https://planetarycomputer.microsoft.com/dataset/deltares-floods)). 
 - **Land-use information:** The land cover map is available from the [Copernicus Land Monitoring Service](https://land.copernicus.eu/pan-european/corine-land-cover).
