@@ -2,7 +2,11 @@
 ## Workflow for risk assessment based on flood maps
 
 Flooding, whether coastal, fluvial, or pluvial, is a major hazard to humans. This workflow aims at assessing how this hazard affects built-up areas by looking at economic damage represented by building damage, impact on critical infrastructures (such as hospitals, water tower, etc.), as well as the impact on the population by estimating the number of people exposed to the food hazard and the number of people displaced by it.
- 
+
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wXiuCB_Q4n4?si=0huGbEo5hukhm1Dy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 ## Risk assessment methodology
 
 ### How is risk calculated?
