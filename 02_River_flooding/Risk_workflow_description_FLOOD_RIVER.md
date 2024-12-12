@@ -1,9 +1,15 @@
 # River flooding
+
 ## Workflow for risk assessment under climate scenarios
 
 This workflow is designed to help in exploring the regional risks presented by fluvial flooding (river flooding) and assessing the impact of climate change on these risks.
 
 Fluvial flooding is caused by high water levels in the river bodies which are in turn caused primarily by heavy or long-lasting precipitation upstream of the impacted area. Under climate change, precipitation extremes are expected to increase in many European regions, which will likely lead to an increased risk of fluvial flooding. In this workflow we explore an example of how the risk presented by fluvial flooding can be assessed by calculating economic damages in the given area. We do this based on European-scale river flood maps. The methodology for assessing river flood hazard and risk is described below.
+
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GBfrTdx3VfE?si=UKWDd-oA_xq9Yoms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 
 ### Risk assessment methodology
 In this workflow flood risk is calculated by combining a set of maps of river flood extent for a number of different flood return periods with exposure and vulnerability data. The exposure and vulnerability data is presented in the form of economic damage functions for infrastructure.
