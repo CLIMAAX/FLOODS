@@ -2,6 +2,7 @@ name: climaax_floods
 
 channels:
     - conda-forge
+    - nodefaults
 
 dependencies:
     - adlfs=2024.7.0
