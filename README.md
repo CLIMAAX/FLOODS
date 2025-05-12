@@ -34,7 +34,7 @@ In a terminal where git and conda are available:
 
 1.  Clone the repository
 
-        git clone git@github.com:CLIMAAX/FLOODS.git
+        git clone https://github.com/CLIMAAX/FLOODS.git
 
 2.  Move into the cloned repository
 
