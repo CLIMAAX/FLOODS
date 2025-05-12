@@ -16,7 +16,7 @@ jobs:
       - name: Repository checkout
         uses: actions/checkout@v4
       - name: Setup Miniconda
-        uses: conda-incubator/setup-miniconda@v3.0.4
+        uses: conda-incubator/setup-miniconda@v3
         with:
           activate-environment: test
           miniforge-version: latest
