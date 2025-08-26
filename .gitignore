@@ -3,6 +3,7 @@
 **/01_Coastal_flooding/FLOOD_COASTAL_risk/
 **/02_River_flooding/FLOOD_RIVER_hazard/
 **/02_River_flooding/FLOOD_RIVER_risk/
+**/04_River_discharge_assessment/FLOOD_RIVER_discharges/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

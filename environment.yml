@@ -26,6 +26,7 @@ dependencies:
     - pandas=2.2.2
     - pip
     - planetary-computer=1.0.0
+    - plotly=5.22.0
     - pooch=1.8.2
     - pyogrio=0.8.0
     - pyproj=3.6.1
