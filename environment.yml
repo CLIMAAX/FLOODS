@@ -41,4 +41,4 @@ dependencies:
     - zarr=2.18.2
     - pip:
         - damagescanner==0.7
-	- kaleido==0.2.1
+        - kaleido==0.2.1
