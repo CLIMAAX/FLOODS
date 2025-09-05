@@ -1,6 +1,6 @@
 [MAIN]
 fail-on=F,E
-fail-under=7
+fail-under=8
 
 [MESSAGES CONTROL]
 confidence=HIGH,CONTROL_FLOW,INFERENCE,INFERENCE_FAILURE,UNDEFINED
