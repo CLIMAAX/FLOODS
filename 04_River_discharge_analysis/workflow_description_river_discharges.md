@@ -19,7 +19,8 @@ For each time period, climate scenarios RCP2.6, RCP4.5 and RCP8.5 are available.
 ## Structure of the workflow
 
 1. [Accessing data](./hazard_assessment_get_data.ipynb)
-2. [Analyzing historical river discharge statistics](./hazard_assessment_timeseries_analysis.ipynb)
+2. [Hazard assessment using river discharge statistics](./hazard_assessment_discharge_analysis.ipynb)
+3. [Validation with observations](./hazard_assessment_compare_to_observations_GRDC.ipynb)
 
 :::{note}
 This workflow currently assesses hazard only.
