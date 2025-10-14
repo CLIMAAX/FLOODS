@@ -2,6 +2,10 @@
 
 This workflow uses the dataset of hydrological climate impact indicators by SMHI that is [available via the Copernicus Data Store](https://doi.org/10.24381/cds.73237ad6). Based on this dataset, we can assess the projected changes in river discharges due to climate change, modelled using a European-wide hydrological model forced with climate models.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hBKDPAnoX4I?si=SYbDAS3BWKuY2OD5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 The dataset contains two types of model data: gridded data (E-HYPEgrid model) and catchment-level data (E-HYPEcatch model). In this workflow we will only use the catchment-level model data. The resolution of the catchment-level data is approx. 0.11 degrees (5-10 km).
 
 The following variables are used in this workflow:
