@@ -9,12 +9,10 @@ Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/noteb
 
 ## Workflows
 
-- [River flood](02_River_flooding/)
-- [Coastal flood](01_Coastal_flooding/)
-
-Both workflows enable the user to retrieve relevant flood maps from open global databases and combine those with data on exposure and vulnerability in the form of land use maps and economic damage curves.
-
+- [River floods](02_River_flooding/) (flood maps)
+- [Coastal floods](01_Coastal_flooding/) (flood maps)
 - [Flood building damage and population exposure](03_Flood_damage_and_population_exposure/)
+- [River floods](04_River_discharge_analysis/) (discharges)
 
 
 ## How to run
