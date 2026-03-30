@@ -4,7 +4,7 @@ Repository for collaboration on workflows for floods hazard.
 
 [<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
 
-Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/notebooks/workflows/floods.html).
+Part of the [Climate Risk Assessment Handbook](https://handbook.climaax.eu/).
 
 
 ## Workflows
@@ -26,35 +26,29 @@ In particular, the workflows cannot be used on Binder to load multiple flood map
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/climaax/binder-env/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FCLIMAAX%252FFLOODS%26urlpath%3Dlab%252Ftree%252FFLOODS%252F%26branch%3Dmain)
 
-### Quickstart: local setup
+### Local setup with conda
 
-In a terminal where git and conda are available:
+```bash
+# Clone the workflow repository
+git clone https://github.com/CLIMAAX/FLOODS.git
+cd FLOODS
 
-1.  Clone the repository
+# Create a new environment and activate it
+conda env create -f environment.yml
 
-        git clone https://github.com/CLIMAAX/FLOODS.git
-
-2.  Move into the cloned repository
-
-        cd FLOODS
-
-3.  Create a new environment from the `environment.yml` file
-
-        conda env create -f environment.yml
-
-4.  Activate the environment
-
-        conda activate climaax_floods
-
-5.  Launch the Jupyter interface of your preference with
-
-        jupyter lab
-
-    or
-
-        jupyter notebook
-
+# Start the JupyterLab from within the created environment
+conda activate climaax_floods
+jupyter lab
+```
 
 ## How to contribute
 
-See our [contribute to risk recipes](https://handbook.climaax.eu/community/contribute.html) page in the handbook for more information.
+See our [contributions](https://handbook.climaax.eu/community/contribute.html) page in the Handbook.
+
+## License
+
+`Apache-2.0 OR CC-BY-4.0` ([SPDX license identifier](https://spdx.dev/learn/handling-license-info/)).
+
+## Acknowledgements
+
+CLIMAAX has received funding from the European Union’s Horizon Europe – the Framework Programme for Research and Innovation (2021-2027) under grant agreement No. 101093864.
