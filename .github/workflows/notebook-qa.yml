@@ -20,7 +20,6 @@ jobs:
         with:
           activate-environment: test
           miniforge-version: latest
-          mamba-version: 2.5.0
           environment-file: environment.yml
       - name: Show conda environment
         run: conda list
